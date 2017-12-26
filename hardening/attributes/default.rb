@@ -4,6 +4,8 @@ default['hardening']['rhostpath']='/home/*/.rhosts'
 default['hardening']['grub']='etc/grub.conf'
 default['hardening']['boot']='/boot/grub'
 default['hardening']['sshd']='/etc/ssh/sshd_config'
+default['hardening']['snmpd']='/etc/snmp/snmpd.conf'
+default['hardening']['trusteddns']='/etc/resolv.conf'
 default['hardening']['user_list']= ['uucp','adm','daemon','news','bin','sys','guest','nobody','lpd','lp','sync','shutdown','halt','mail','operator','games','gopher','ftp','vcsa','mailnul','rpm','rpc','xfs','rpcuser','nfsnobody','nscd','ident','radvd','smmsp','dbus','apache','avahi','squid','pcap','haldaemon','gdm']
 default['hardening']['service_list']=['xorg-x11*','echo-dgram','dhcpd','echo-stream','slapd','named','vsftpd','httpd','squid','smb','snmpd','dovecot','rpcbind','nfs','cups','avahi-daemon','telnet.socket','rlogin.socket','rsh','ypbind','ypserv
 ','tftp','tftp.socket','talk','ntalk','xinetd','chargen-dgram','chargen-stream','daytime-dgram','daytime-stream','tcpmux-server','anacron']
